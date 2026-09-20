@@ -1,0 +1,7 @@
+<!-- Paste inside the top-level <dict> of ios/Runner/Info.plist -->
+<key>UIBackgroundModes</key>
+<array><string>audio</string></array>
+<key>NSAppTransportSecurity</key>
+<dict><key>NSAllowsLocalNetworking</key><true/></dict>
+<key>NSLocalNetworkUsageDescription</key>
+<string>Connects to your home media server to sync your library.</string>
